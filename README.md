@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stackspend
 
-## Getting Started
+AI-powered SaaS spend optimization platform for tracking subscriptions, identifying waste, and making smarter software purchasing decisions.
 
-First, run the development server:
+## Overview
+
+Stackspend helps teams understand where their software spend is going and which tools are providing real value. It combines analytics, recommendation logic, and actionable reporting to reduce unnecessary subscription costs across SaaS and AI tools.
+
+## Core features
+
+- **Spend auditing** — Track all SaaS and AI tool subscriptions
+- **Cost visibility** — Dashboard view of recurring spend by vendor and category
+- **Waste identification** — AI analysis of overlapping and underutilized tools
+- **Savings recommendations** — Actionable suggestions for reducing costs
+- **Team reporting** — Finance and product team workflows
+- **AI insights** — Smart optimization recommendations based on usage patterns
+
+## Why this matters
+
+Modern teams often overpay for overlapping tools and underutilized subscriptions. Stackspend makes that hidden waste visible and actionable, especially for AI-heavy environments where tool sprawl is common.
+
+## Tech stack
+
+- Frontend: Next.js, TypeScript, React, Tailwind CSS
+- Backend: Node.js / API integrations
+- Database: Scalable data layer
+- AI: LLM-powered recommendation engine
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Production build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project goals
 
-To learn more about Next.js, take a look at the following resources:
+- Reduce software waste and subscription costs
+- Improve visibility into recurring cloud and AI tool spend
+- Give decision-makers actionable recommendations
+- Create a simple, useful optimization workflow for teams
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Use cases
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Finance teams auditing software spend
+- Product teams evaluating tool consolidation
+- Operations teams optimizing cloud costs
+- AI-heavy teams managing growing tool ecosystems
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy to Vercel or similar hosting platforms with zero-config Next.js deployment.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+- GitHub: https://github.com/eshfaq-ux
+- Email: eshfaqnabi11@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ashfaq-nabi-6882401b7/
+
+---
+
+A practical SaaS product focused on AI cost visibility and operational efficiency.
